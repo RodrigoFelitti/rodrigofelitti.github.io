@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Project Name 1",
+    "description": "A brief description of your project. Explain what problem it solves and what technologies you used to build it.",
+    "icon": "🚀",
+    "github": "https://github.com/yourusername/project-1",
+    "live": "https://project-1-demo.com",
+    "technologies": ["React", "Node.js", "MongoDB", "Express"]
+  },
+  {
+    "title": "Project Name 2",
+    "description": "Another amazing project you've built. Highlight the key features and your role in the development.",
+    "icon": "💡",
+    "github": "https://github.com/yourusername/project-2",
+    "live": "",
+    "technologies": ["JavaScript", "HTML", "CSS", "API Integration"]
+  },
+  {
+    "title": "Project Name 3",
+    "description": "A portfolio piece that showcases your skills. Describe the challenges you faced and how you overcame them.",
+    "icon": "🎨",
+    "github": "https://github.com/yourusername/project-3",
+    "live": "https://project-3-demo.com",
+    "technologies": ["Vue.js", "Firebase", "Tailwind CSS"]
+  }
+]

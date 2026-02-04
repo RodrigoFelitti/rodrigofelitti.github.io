@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Software Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600&family=Syne:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>
+                <span>YourName</span>
+                <span class="logo-bracket">/&gt;</span>
+            </a>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#blog" class="nav-link">Blog</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="hero-greeting">Hi, I'm</span>
+                    <span class="hero-name">Your Name</span>
+                </h1>
+                <p class="hero-subtitle">Software Developer specializing in <span class="highlight">Full-Stack Development</span></p>
+                <p class="hero-description">Building elegant solutions to complex problems. Currently learning and growing through ZTM courses.</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">01.</span>
+                <span>About Me</span>
+            </h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm a passionate software developer with a focus on creating impactful web applications. My journey in tech started with curiosity and has evolved into a commitment to continuous learning and excellence.</p>
+                    
+                    <p>Currently, I'm expanding my skill set through comprehensive courses and hands-on projects. I believe in writing clean, maintainable code and creating user experiences that matter.</p>
+                    
+                    <div class="tech-stack">
+                        <h3>Technologies I work with:</h3>
+                        <div class="tech-grid">
+                            <span class="tech-item">JavaScript</span>
+                            <span class="tech-item">React</span>
+                            <span class="tech-item">Node.js</span>
+                            <span class="tech-item">HTML/CSS</span>
+                            <span class="tech-item">Git</span>
+                            <span class="tech-item">Python</span>
+                            <span class="tech-item">SQL</span>
+                            <span class="tech-item">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <div class="image-placeholder">
+                            <span>Your Photo</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">02.</span>
+                <span>Featured Projects</span>
+            </h2>
+            <div class="projects-grid" id="projectsContainer">
+                <!-- Projects will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">03.</span>
+                <span>Dev Blog</span>
+            </h2>
+            <div class="blog-intro">
+                <p>Documenting my journey, sharing insights, and tracking progress on various projects.</p>
+            </div>
+            <div class="blog-grid" id="blogContainer">
+                <!-- Blog posts will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">04.</span>
+                <span>Get In Touch</span>
+            </h2>
+            <div class="contact-content">
+                <p class="contact-text">I'm currently open to new opportunities and collaborations. Whether you have a question or just want to say hi, feel free to reach out!</p>
+                
+                <div class="contact-links">
+                    <a href="mailto:your.email@example.com" class="contact-link">
+                        <span class="contact-icon">✉</span>
+                        <span>your.email@example.com</span>
+                    </a>
+                    <a href="https://github.com/yourusername" target="_blank" class="contact-link">
+                        <span class="contact-icon">⚡</span>
+                        <span>github.com/yourusername</span>
+                    </a>
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank" class="contact-link">
+                        <span class="contact-icon">🔗</span>
+                        <span>linkedin.com/in/yourprofile</span>
+                    </a>
+                    <a href="https://twitter.com/yourhandle" target="_blank" class="contact-link">
+                        <span class="contact-icon">🐦</span>
+                        <span>twitter.com/yourhandle</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Designed & Built by Your Name</p>
+            <p class="footer-small">© 2024 All rights reserved</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
