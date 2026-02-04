@@ -151,7 +151,7 @@ async function loadBlogPost() {
         const htmlContent = marked.parse(markdown);
         
         // Update page
-        document.title = `${postMeta.title} - Your Name`;
+        document.title = `${postMeta.title} - Rodrigo Felitti`;
         
         const container = document.querySelector('.blog-post-container');
         if (container) {

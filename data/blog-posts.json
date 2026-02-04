@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "starting-at-sap-globalization",
+    "title": "Starting My Journey at SAP Globalization",
+    "date": "2024-09-15",
+    "excerpt": "Reflecting on my first weeks as a Fullstack Software Development Intern at SAP. From robotics competitions to enterprise software development - here's what I've learned so far.",
+    "tags": ["career", "SAP", "learning", "enterprise"],
+    "readTime": "5 min read"
+  },
+  {
+    "slug": "from-robotics-to-software",
+    "title": "From Robotics Competitions to Cloud-Native Development",
+    "date": "2024-10-01",
+    "excerpt": "My journey from building rescue robots in high school to developing enterprise microservices at SAP. How the OBR competition shaped my career path.",
+    "tags": ["personal", "robotics", "career", "journey"],
+    "readTime": "6 min read"
+  }
+]
