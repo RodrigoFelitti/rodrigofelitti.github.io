@@ -1,21 +1,5 @@
 [
   {
-    "title": "SAP Enterprise Solutions",
-    "description": "Developing and maintaining cloud-native microservices for SAP Globalization. Working with Java, Spring Boot, Node.js, and SAP UI5 to build scalable enterprise-level solutions deployed globally.",
-    "icon": "🚀",
-    "github": "",
-    "live": "",
-    "technologies": ["Java", "Spring Boot", "Node.js", "SAP UI5", "Docker", "Kubernetes", "Jenkins"]
-  },
-  {
-    "title": "Jira Kanban Enhancement",
-    "description": "Contributed to big side projects using TamperMonkey, plugin architecture and TypeScript to adapt Jira Kanban Boards to specific team needs, improving workflow efficiency for the development team.",
-    "icon": "⚙️",
-    "github": "",
-    "live": "",
-    "technologies": ["TypeScript", "TamperMonkey", "JavaScript", "Jira API"]
-  },
-  {
     "title": "Rescue Robot - OBR Competition",
     "description": "Developed a rescue robot project with my high school team for the Brazilian Robotics Olympiad (OBR). Achieved 3rd place at state level and Top 13th nationally, working on robotics, automation, and team coordination.",
     "icon": "🤖",
@@ -24,11 +8,11 @@
     "technologies": ["Robotics", "C++", "Arduino", "Automation", "Team Leadership"]
   },
   {
-    "title": "CI/CD Automation & DevOps",
-    "description": "Automated deployment processes and tasks via scripts and CI/CD pipelines using Jenkins and GitHub Actions. Implemented best practices for continuous delivery, leveraging AI and LLMs to enhance development workflow efficiency.",
+    "title": "CI/CD Automation, DevOps & Cloud",
+    "description": "DevOps activities in specializing course and Cloud native tracks with hands-on experience - IBM professional DevOps Engineer course",
     "icon": "🔄",
-    "github": "",
+    "github": "https://github.com/RodrigoFelitti/devops-capstone-project",
     "live": "",
-    "technologies": ["Jenkins", "GitHub Actions", "Bash", "Docker", "DevOps"]
+    "technologies": ["AWS", "GitHub Actions", "Bash", "Docker", "DevOps"]
   }
 ]
